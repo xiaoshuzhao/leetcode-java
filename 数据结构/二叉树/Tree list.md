@@ -1,6 +1,6 @@
 # Tree List
 
-100 - 相同的树(数据结构/二叉树/100-相同的树.md)
+100 - 相同的树(https://github.com/xiaoshuzhao/leetcode-notes-java/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E4%BA%8C%E5%8F%89%E6%A0%91/100-%E7%9B%B8%E5%90%8C%E7%9A%84%E6%A0%91.md)
 
 101 - 对称二叉树
 
