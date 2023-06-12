@@ -1,0 +1,68 @@
+### 102. 二叉树的层序遍历
+
+Binary Tree Level Order Traversal
+
+Given the `root` of a binary tree, return *the level order traversal of its nodes' values*. (i.e., from left to right, level by level).
+
+```java
+Input: root = [3,9,20,null,null,15,7]
+Output: [[3],[9,20],[15,7]]
+```
+
+![img](https://assets.leetcode.com/uploads/2021/02/19/tree1.jpg)
+
+#### 【BFS-队列】
+
+层序遍历的⼀般写法，通过⼀个 while 循环控制从上向下⼀层层遍历，for 循环控制每⼀层从左向右遍
+
+```java
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public List<List<Integer>> levelOrder(TreeNode root) {
+        List<List<Integer>> ans = new LinkedList<List<Integer>>();
+        if (root == null) {
+            return ans;
+        }
+        // 借用队列，存放每一层的TreeNode, 记录当前队列中节点的size，即当前层的节点数量
+        // 取出当前队列中每个节点的值，存入list中
+        // 然后在每轮队列循环中，将下一层的节点存放进队列中
+        Queue<TreeNode> q = new LinkedList<TreeNode>();
+        q.offer(root);
+        while (!q.isEmpty()) {
+            int size = q.size(); // 当前层的数量
+            List<Integer> list = new ArrayList<Integer>();
+            for (int i = 0; i < size; i++) {
+                TreeNode cur = q.poll(); // 取出当前队列中的节点，并存入当前节点的值
+                list.add(cur.val);
+                // 将当前节点的左右节点存入队列中
+                if (cur.left != null) {
+                    q.offer(cur.left);
+                }
+                if (cur.right != null) {
+                    q.offer(cur.right);
+                }
+            }
+            // 将每一层取完的节点值list存入答案中
+            ans.add(list);
+        }
+        return ans;
+    }
+}
+```
+
+back to [treeList](https://github.com/xiaoshuzhao/leetcode-notes-java/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E4%BA%8C%E5%8F%89%E6%A0%91/Tree%20list.md)
+
