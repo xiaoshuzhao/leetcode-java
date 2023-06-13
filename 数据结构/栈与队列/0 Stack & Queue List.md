@@ -96,16 +96,9 @@ return res; }
 
 ## 补充知识
 
-
-
 1. 顺序存储的栈叫做**顺序栈**
-
 顺序栈使用数组实现，下标为 0 的一端作为栈底，使用 top 做为栈顶，它来指示当前栈顶元素的位置，默认 top = -1 时为空栈。
 
-<img src="/Users/sugar/Documents/leetcode/pic/640.png" alt="640" style="zoom:50%;" />
-
 2. 链式存储的栈叫做**链栈**。
-
 链栈用单链表实现，一般尾节点为栈底，使用头指针指向的节点作为栈顶，不需要头节点。top = NULL 为空栈。
 
-![640 (1)](/Users/sugar/Documents/leetcode/pic/640 (1).png)
