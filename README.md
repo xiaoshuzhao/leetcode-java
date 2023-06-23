@@ -1,9 +1,9 @@
 # leetcode小白
 leetcode分类刷题笔记，*新手详细注释
 
-每个分类先看对应 List
+关键词点进去对应 List
 
-## 数据结构分类
+## 数据结构
 [数组](https://github.com/xiaoshuzhao/leetcode-notes-java/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%95%B0%E7%BB%84/0%20Array%20List.md)
 
 [字符串](https://github.com/xiaoshuzhao/leetcode-notes-java/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%AD%97%E7%AC%A6%E4%B8%B2/0%20String%20List.md)
