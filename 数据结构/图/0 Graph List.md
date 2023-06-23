@@ -18,7 +18,7 @@
 
 ## 并查集
 
-[323. 无向图中连通分量的数目 🌲]（https://github.com/xiaoshuzhao/leetcode-notes-java/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%9B%BE/323.%20%E6%97%A0%E5%90%91%E5%9B%BE%E4%B8%AD%E8%BF%9E%E9%80%9A%E5%88%86%E9%87%8F%E7%9A%84%E6%95%B0%E7%9B%AE.md）
+[323. 无向图中连通分量的数目 🌲](https://github.com/xiaoshuzhao/leetcode-notes-java/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%9B%BE/323.%20%E6%97%A0%E5%90%91%E5%9B%BE%E4%B8%AD%E8%BF%9E%E9%80%9A%E5%88%86%E9%87%8F%E7%9A%84%E6%95%B0%E7%9B%AE.md)
 
 [684. 冗余连接](https://github.com/xiaoshuzhao/leetcode-notes-java/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%9B%BE/684.%20%E5%86%97%E4%BD%99%E8%BF%9E%E6%8E%A5.md)
 
