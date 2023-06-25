@@ -27,9 +27,6 @@
 
 [145 - 后序遍历](https://github.com/xiaoshuzhao/leetcode-notes-java/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E4%BA%8C%E5%8F%89%E6%A0%91/145.%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86.md)
 
-[208 -  添加和搜索单词-数据结构 🌲](https://github.com/xiaoshuzhao/leetcode-notes-java/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E4%BA%8C%E5%8F%89%E6%A0%91/208.%20%E5%AE%9E%E7%8E%B0%E5%89%8D%E7%BC%80%E6%A0%91.md)
-
-[211 - 添加和搜索单词-数据结构 🌲](https://github.com/xiaoshuzhao/leetcode-notes-java/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E4%BA%8C%E5%8F%89%E6%A0%91/211.%20%20%E6%B7%BB%E5%8A%A0%E5%92%8C%E6%90%9C%E7%B4%A2%E5%8D%95%E8%AF%8D-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md)
 
 [212 - 字母搜索II 🌲]
 
@@ -52,6 +49,10 @@
 637 - 二叉树的层平均值
 
 ## 前缀树 Trie Tree
+
+[208 -  添加和搜索单词-数据结构 🌲](https://github.com/xiaoshuzhao/leetcode-notes-java/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E4%BA%8C%E5%8F%89%E6%A0%91/208.%20%E5%AE%9E%E7%8E%B0%E5%89%8D%E7%BC%80%E6%A0%91.md)
+
+[211 - 添加和搜索单词-数据结构 🌲](https://github.com/xiaoshuzhao/leetcode-notes-java/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E4%BA%8C%E5%8F%89%E6%A0%91/211.%20%20%E6%B7%BB%E5%8A%A0%E5%92%8C%E6%90%9C%E7%B4%A2%E5%8D%95%E8%AF%8D-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md)
 
 [212 - 单词搜索II 🌲]
 
